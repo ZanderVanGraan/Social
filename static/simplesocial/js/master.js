@@ -1,4 +1,5 @@
 // SOURCE: http://codepen.io/Thibka/pen/mWGxNj
+// Ver2
 var canvas = document.getElementById('canvas'),
   context = canvas.getContext('2d'),
   canvasWidth = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth),
@@ -14,7 +15,7 @@ var persons = [],
 var colors = [];
 /* Galactic Tea - http://www.colourlovers.com/palette/1586746/Galactic_Tea*/
 colors[2] = [];
-colors[2]['background'] = '#2F294F';
+colors[2]['background'] = '#2F294F'; 
 colors[2][1] = 'rgba(74,49,89,';
 colors[2][2] = 'rgba(130,91,109,';
 colors[2][3] = 'rgba(185,136,131,';
